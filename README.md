@@ -1,6 +1,6 @@
 # Ex-1 IMPLEMENTATION-OF-SYMBOL-TABLE
 # Register Number :212224110021
-# Date : 03.02.2026
+# Date : 03/02/2026
 # AIM :
 ## To write a C program to implement a symbol table.
 # ALGORITHM
@@ -13,6 +13,7 @@
 7.	To reach a variable, enter the variable to be searched and the symbol table has been checked for the corresponding variable, the variable along with its address is displayed as a result.
 8.	Stop the program. 
 # PROGRAM
+```
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -74,9 +75,14 @@ int main() {
 
 	return 0;
 }
+```
 # OUTPUT
-<img width="1485" height="883" alt="Screenshot 2026-02-03 104349" src="https://github.com/user-attachments/assets/b8999d65-01c0-43a5-bff4-0903a84d822d" />
-<img width="1371" height="768" alt="Screenshot 2026-02-03 104414" src="https://github.com/user-attachments/assets/21b6404e-3d1b-4e11-9060-4a8decfd32f3" />
+## Symbol found
+<img width="1723" height="845" alt="Screenshot 2026-02-03 104521" src="https://github.com/user-attachments/assets/0192688e-f7cb-4a1d-89eb-ba3ce724de35" />
+
+## Symbol not found
+<img width="1514" height="670" alt="Screenshot 2026-02-03 104544" src="https://github.com/user-attachments/assets/d654313c-67b2-4209-9843-8e5d63be801e" />
+
 
 # RESULT
 ### The program to implement a symbol table is executed and the output is verified.
